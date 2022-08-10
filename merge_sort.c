@@ -9,7 +9,7 @@ void merge(int a[], int beg, int mid, int end)
       
     int LeftArray[n1], RightArray[n2]; 
       
-    /* copy data to temp arrays */  
+     
     for (int i = 0; i < n1; i++)    
     LeftArray[i] = a[beg + i];    
     for (int j = 0; j < n2; j++)    
