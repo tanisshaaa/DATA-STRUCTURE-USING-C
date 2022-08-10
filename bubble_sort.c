@@ -1,5 +1,5 @@
 #include<stdio.h>    
- void print(int a[], int n) //function to print array elements  
+ void print(int a[], int n) 
     {  
     int i;  
     for(i = 0; i < n; i++)    
@@ -7,7 +7,7 @@
         printf("%d ",a[i]);    
     }        
     }  
- void bubble(int a[], int n) // function to implement bubble sort  
+ void bubble(int a[], int n) 
  {  
    int i, j, temp;  
    for(i = 0; i < n; i++)    
